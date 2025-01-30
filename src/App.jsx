@@ -1,9 +1,12 @@
-import ClientBaseSlider from "./component/ClientBaseSlider";
-import ConnectSection from "./component/ConnectSection";
-import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
-import PillarsOfEkatra from "./component/PillarsOfEkatra";
+import Hero from "./component/Hero";
+import ConnectSection from "./component/ConnectSection";
 import ProductSection from "./component/ProductSection";
+import PillarsOfEkatra from "./component/PillarsOfEkatra";
+import DesignCreationSection from "./component/DesignCreationSection";
+import CommunitySlider from "./component/CommunitySlider";
+import BlogSection from "./component/BlogSection";
+import Footer from "./component/Footer";
 
 // import Sandpot from "./component/Sandpot";
 const App = () => {
@@ -14,7 +17,10 @@ const App = () => {
       <ConnectSection />
       <ProductSection />
       <PillarsOfEkatra />
-      <ClientBaseSlider />
+      <DesignCreationSection />
+      <CommunitySlider />
+      <BlogSection />
+      <Footer />
     </div>
   );
 };
