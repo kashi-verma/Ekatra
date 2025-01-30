@@ -8,7 +8,7 @@ const ConnectSection = () => {
           </h2>
         </div>
         <div className="text-lg mb-8">
-          <p style={{ display: "block" }}>
+          <p className="font-normal text-justify" style={{ display: "block" }}>
             Tools to connect home. Our collection of sustainable paper goods are
             designed to connect you with your truest self, with those who
             surround you, and with the natural environment that we inhibit. Find
@@ -16,9 +16,6 @@ const ConnectSection = () => {
             community.
           </p>
         </div>
-        <a href="#" className="text-lg font-medium bg-700">
-          SHOP OUR BEST SELLERS
-        </a>
       </div>
     </section>
   );

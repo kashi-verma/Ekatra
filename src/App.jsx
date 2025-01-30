@@ -1,7 +1,10 @@
+import ClientBaseSlider from "./component/ClientBaseSlider";
 import ConnectSection from "./component/ConnectSection";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
+import PillarsOfEkatra from "./component/PillarsOfEkatra";
 import ProductSection from "./component/ProductSection";
+
 // import Sandpot from "./component/Sandpot";
 const App = () => {
   return (
@@ -9,8 +12,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <ConnectSection />
-
       <ProductSection />
+      <PillarsOfEkatra />
+      <ClientBaseSlider />
     </div>
   );
 };

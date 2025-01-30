@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <section>
       <nav className="bg-white shadow-md py-4 px-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">EKATRA</h1>
+        <h1 className="text-4xl font-bold from-neutral-900">EKATRA</h1>
         <ul className="flex space-x-6">
           <li>
             <a href="#" className="text-gray-600 hover:text-gray-900">
