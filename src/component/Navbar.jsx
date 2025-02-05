@@ -5,17 +5,17 @@ const Navbar = () => {
         <h1 className="text-4xl font-bold from-neutral-900">EKATRA</h1>
         <ul className="flex space-x-6">
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="new-arrivals" className="text-gray-600 hover:text-gray-900">
               NEW ARRIVALS
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="shop" className="text-gray-600 hover:text-gray-900">
               SHOP
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="peopleofekatra" className="text-gray-600 hover:text-gray-900">
               PEOPLE
             </a>
           </li>
