@@ -21,7 +21,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="corporate-gifting" className="text-gray-600 hover:text-gray-900">
               CORPORATE GIFTING
             </a>
           </li>

@@ -1,7 +1,7 @@
 
 function EkatraPage() {
   return (
-    <div className="flex h-screen mt-4">
+    <div className="flex h-screen mt-6 mb-6">
       <div className="flex-1">
         <img
           src="https://cdn.shopify.com/s/files/1/0685/6110/9295/files/10_team_images.jpg?v=1709716229"
