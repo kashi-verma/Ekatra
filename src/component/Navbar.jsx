@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <section>
       <nav className="bg-white shadow-md py-4 px-6 flex justify-between items-center">
-        <h1 className="text-4xl font-bold from-neutral-900">EKATRA</h1>
+        <h1 className="text-3xl font-serif from-neutral-900">EKATRA</h1>
         <ul className="flex space-x-6">
           <li>
             <a href="new-arrivals" className="text-gray-600 hover:text-gray-900">
@@ -31,12 +31,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="Wellness-journal" className="text-gray-600 hover:text-gray-900">
               EKATRA X HUMANS OF BOMBAY
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="contact" className="text-gray-600 hover:text-gray-900">
               CONTACT US
             </a>
           </li>

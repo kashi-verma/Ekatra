@@ -20,6 +20,13 @@ import PersonImage from './Pages/PersonImage';
 import CorporateGifting from './Pages/CorporateGifting';
 import WhyChooseUs from './Pages/WhyChooseUs';
 import Sustainable from './Pages/Sustainable';
+import ContactUs from './Pages/ContactUs';
+import Collaborate from './Pages/Collaborate';
+import BecomeStockist from './Pages/BecomeStokist';
+import ShopAll from './Pages/ShopAll';
+import WellEdit from './Pages/WellEdit';
+import WellJournal from './Pages/WellJournal';
+import WelBooks from './Pages/WelBooks';
 
 
 const Home = () => (
@@ -33,6 +40,13 @@ const Home = () => (
     <CommunitySlider />
     <BlogSection />
     <Footer />
+  </>
+);
+const Shopping = () => (
+  <>
+  <Navbar />
+  <ShopAll/>
+  <Footer />
   </>
 );
 const People = () => (<>
@@ -53,6 +67,23 @@ const CorporateGiftings = ()=>(
   <Footer />
   </>
 )
+const Contact = ()=>(
+<>
+<ContactUs/>
+<Collaborate/>
+<BecomeStockist/>
+<Footer/>
+
+</>
+)
+const EkatraXBombay = () =>(
+  <>
+  <WellEdit/>
+  <WellJournal/>
+  <WelBooks/>
+  <Footer/>
+  </>
+)
 const App = () => {
   return (
     <Router>
@@ -63,6 +94,9 @@ const App = () => {
           <Route path="/new-arrivals" element={<NewArrivals/>} />
           <Route path= "/peopleofekatra" element={<People/>}/>
           <Route path="/corporate-gifting" element={<CorporateGiftings/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/shop" element={<Shopping/>} />
+          <Route path="Wellness-journal" element={<EkatraXBombay/>}/>
 
         </Routes>
       </div>
