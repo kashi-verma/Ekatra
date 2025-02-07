@@ -1,7 +1,8 @@
 const Footer = () => {
   return (
     <footer className="bg-gray-100 text-gray-800 py-8">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Top Section */}
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
         <div>
           <h2 className="font-semibold mb-4">Quick Links</h2>
           <ul>
@@ -50,25 +51,29 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto mt-8">
+
+      {/* Newsletter Subscription */}
+      <div className="container mx-auto mt-8 px-4">
         <h2 className="font-semibold mb-4">Subscribe to our newsletter</h2>
-        <form className="flex">
+        <form className="flex flex-col sm:flex-row">
           <input
             type="email"
             placeholder="Email"
-            className="p-2 border border-gray-300 rounded-l-md flex-grow"
+            className="p-2 border border-gray-300 rounded-md sm:rounded-r-none sm:flex-grow"
           />
           <button
             type="submit"
-            className="p-2 bg-gray-800 text-white rounded-r-md"
+            className="p-2 mt-2 sm:mt-0 sm:ml-2 bg-gray-800 text-white rounded-md sm:rounded-l-none"
           >
             →
           </button>
         </form>
       </div>
-      <div className="container mx-auto mt-8 flex justify-between items-center">
+
+      {/* Bottom Section */}
+      <div className="container mx-auto mt-8 px-4 flex flex-col md:flex-row justify-between items-center">
         <p>© 2025, ekatrahandmade.com Powered by Shopify</p>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 mt-4 md:mt-0">
           <a href="#" className="text-gray-800 hover:text-gray-600">
             <i className="fab fa-facebook-f"></i>
           </a>

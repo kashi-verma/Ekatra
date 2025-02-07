@@ -50,6 +50,7 @@ const Shopping = () => (
   </>
 );
 const People = () => (<>
+     <Navbar />
      <PeopleOfEkatra/>
      <EkatraPage/>
      <TeamPage/>
@@ -61,6 +62,7 @@ const People = () => (<>
 </>);
 const CorporateGiftings = ()=>(
   <>
+  <Navbar/>
   <CorporateGifting/>
   <WhyChooseUs/>
   <Sustainable/>
@@ -69,6 +71,7 @@ const CorporateGiftings = ()=>(
 )
 const Contact = ()=>(
 <>
+  <Navbar />
 <ContactUs/>
 <Collaborate/>
 <BecomeStockist/>
@@ -78,10 +81,18 @@ const Contact = ()=>(
 )
 const EkatraXBombay = () =>(
   <>
+  <Navbar />
   <WellEdit/>
   <WellJournal/>
   <WelBooks/>
   <Footer/>
+  </>
+) 
+const NewProducts = () => (
+  <>
+  <Navbar />
+  <NewArrivals/>
+  <Footer />
   </>
 )
 const App = () => {
@@ -90,8 +101,9 @@ const App = () => {
       <div className="font-sans bg-gray-100 text-gray-900">
         
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/new-arrivals" element={<NewArrivals/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/default" element={<Home/>} />
+          <Route path="/new-arrivals" element={<NewProducts/>} />
           <Route path= "/peopleofekatra" element={<People/>}/>
           <Route path="/corporate-gifting" element={<CorporateGiftings/>} />
           <Route path="/contact" element={<Contact/>} />

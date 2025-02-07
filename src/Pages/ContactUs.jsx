@@ -3,23 +3,7 @@
 const ContactUs = () => {
   return (
     <div className="min-h-screen bg-white">
-      <header className="border-b">
-        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
-          <div className="text-lg font-semibold font-serif">ekatra</div>
-          <nav className="space-x-4">
-            <a href="new-arrivals" className="hover:underline">NEW ARRIVALS</a>
-            <a href="#" className="hover:underline">SHOP</a>
-            <a href="#" className="hover:underline">SALE</a>
-            <a href="peopleofekatra" className="hover:underline">PEOPLE</a>
-            <a href="corporate-gifting" className="hover:underline">CORPORATE GIFTING</a>
-            <a href="#" className="hover:underline">STOCKIST</a>
-            <a href="#" className="hover:underline">EKATRA X HUMANS OF BOMBAY</a>
-            <a href="contact" className="hover:underline">CONTACT US</a>
-            <a href="#" className="hover:underline">TRACK ORDER</a>
-            <a href="#" className="hover:underline">VISIT US</a>
-          </nav>
-        </div>
-      </header>
+     
       <div className="bg-gray-100 text-center py-2">
         <p>Use SHARKTANK10 for 10% discount</p>
       </div>

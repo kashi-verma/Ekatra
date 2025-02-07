@@ -1,22 +1,7 @@
 const CorporateGifting = () => {
     return (
       <div className="bg-white text-black">
-        <header className="border-b">
-          <div className="container mx-auto flex justify-between items-center py-4">
-            <div className="text-xl font-bold">ekatra</div>
-            <nav className="space-x-4">
-              <a href="#" className="hover:underline">NEW ARRIVALS</a>
-              <a href="#" className="hover:underline">SHOP</a>
-              <a href="#" className="hover:underline">SALE</a>
-              <a href="#" className="hover:underline">PEOPLE</a>
-              <a href="#" className="hover:underline">CORPORATE GIFTING</a>
-              <a href="#" className="hover:underline">STOCKIST</a>
-              <a href="#" className="hover:underline">EKATRA X HUMANS OF BOMBAY</a>
-              <a href="#" className="hover:underline">CONTACT US</a>
-              <a href="#" className="hover:underline">TRACK ORDER</a>
-            </nav>
-          </div>
-        </header>
+        
         <div className="bg-gray-100 text-center py-2">
           <p>Use SHARKTANK10 for 10% discount</p>
         </div>

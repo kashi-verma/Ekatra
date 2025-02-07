@@ -1,6 +1,5 @@
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faPinterestP, faInstagram, faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
 
 const products = [
   {
@@ -102,55 +101,12 @@ const NewArrivals = () => {
           </div>
         </div>
       </section>
-      <Footer />
+     
     </div>
   );
 };
 
-const Footer = () => {
-  return (
-    <footer className="bg-gray-100 py-8">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h2 className="text-xl font-bold mb-4">Quick Links</h2>
-            <ul>
-              <li><a href="#" className="text-gray-700 hover:underline">HOME</a></li>
-              <li><a href="#" className="text-gray-700 hover:underline">STOCKIST</a></li>
-              <li><a href="#" className="text-gray-700 hover:underline">CORPORATE GIFTING</a></li>
-              <li><a href="#" className="text-gray-700 hover:underline">FAQ`s</a></li>
-              <li><a href="#" className="text-gray-700 hover:underline">Download Ekatra Year End Catalog</a></li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="text-xl font-bold mb-4">Our Mission</h2>
-            <p className="text-gray-700">We create elevated, thoughtfully designed products to help you realize your potential and live a happier, more fulfilling life.</p>
-          </div>
-          <div>
-            <h2 className="text-xl font-bold mb-4">Manufacturer Details</h2>
-            <p className="text-gray-700">All products manufactured & sold by:</p>
-            <p className="text-gray-700">Ekatra Collective Pvt Ltd</p>
-            <p className="text-gray-700">CIN: U21 00RJ2022PTC083030</p>
-            <p className="text-gray-700">Address: Ekatra Facility, 2nd Floor, Chawani Circle, Kota (Raj) - 324007</p>
-          </div>
-        </div>
-        <div className="mt-8 flex justify-between items-center">
-          <div>
-            <h2 className="text-xl font-bold mb-4">Subscribe to our newsletter</h2>
-            <input type="email" placeholder="Email" className="p-2 border border-gray-300 rounded-lg" />
-            <button className="bg-gray-900 text-white px-4 py-2 rounded-lg ml-2">Subscribe</button>
-          </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-gray-700 hover:text-gray-900"><FontAwesomeIcon icon={faFacebookF} /></a>
-            <a href="#" className="text-gray-700 hover:text-gray-900"><FontAwesomeIcon icon={faPinterestP} /></a>
-            <a href="#" className="text-gray-700 hover:text-gray-900"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#" className="text-gray-700 hover:text-gray-900"><FontAwesomeIcon icon={faYoutube} /></a>
-            <a href="#" className="text-gray-700 hover:text-gray-900"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-};
+
+ 
 
 export default NewArrivals;
