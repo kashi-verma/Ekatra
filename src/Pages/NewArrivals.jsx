@@ -1,6 +1,4 @@
 
-
-
 const products = [
   {
     name: "The Bold Beautiful Box",
@@ -85,7 +83,7 @@ const NewArrivals = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-bold text-center mb-8">New Arrivals</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.map((product, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
                 <img
@@ -95,18 +93,17 @@ const NewArrivals = () => {
                 />
                 <h2 className="text-2xl font-bold mb-2">{product.name}</h2>
                 <p className="text-lg text-gray-700 mb-4">{product.price}</p>
-                <button className="bg-gray-900 text-white px-4 py-2 rounded-lg  hover:bg-gray-100 hover:text-black">Add to cart</button>
+                <button className="bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-100 hover:text-black">
+                  Add to cart
+                </button>
               </div>
             ))}
           </div>
         </div>
       </section>
-     
     </div>
+
   );
 };
 
-
- 
-
-export default NewArrivals;
+export default NewArrivals

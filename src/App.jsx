@@ -27,6 +27,11 @@ import ShopAll from './Pages/ShopAll';
 import WellEdit from './Pages/WellEdit';
 import WellJournal from './Pages/WellJournal';
 import WelBooks from './Pages/WelBooks';
+import Jodhpur from './Pages/Jodhpur';
+import VisitUs from './Pages/VisitUs';
+import WhatAwaits from './Pages/WhatAwaits';
+import Unique from './Pages/Unique';
+import StockPerson from './Pages/StockPerson';
 
 
 const Home = () => (
@@ -95,6 +100,24 @@ const NewProducts = () => (
   <Footer />
   </>
 )
+const Visitation = () => (
+  <>
+  <Navbar />
+  <Jodhpur/>
+  <VisitUs/>
+  <WhatAwaits/>
+  <Unique/>
+  <Footer />
+  </>
+)
+const Stockists = ()=> (
+  <>
+  <Navbar />
+  <StockPerson/>
+  <Footer />
+  </>
+)
+
 const App = () => {
   return (
     <Router>
@@ -109,7 +132,8 @@ const App = () => {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/shop" element={<Shopping/>} />
           <Route path="Wellness-journal" element={<EkatraXBombay/>}/>
-
+          <Route path="visit" element={<Visitation/>} />
+          <Route path="stockists" element={<Stockists/>} />
         </Routes>
       </div>
     </Router>

@@ -1,12 +1,12 @@
 
 function EkatraPage() {
   return (
-    <div className="flex h-screen mt-6 mb-6">
+    <div className="flex flex-col lg:flex-row h-full mt-6 mb-6">
       <div className="flex-1">
         <img
           src="https://cdn.shopify.com/s/files/1/0685/6110/9295/files/10_team_images.jpg?v=1709716229"
           alt="Introducing Ekatra"
-          className="w-full h-full object-cover"
+          className="w-full h-64 lg:h-full object-cover"
         />
       </div>
       <div className="flex-1 flex items-center justify-center bg-white text-gray-900 p-8">

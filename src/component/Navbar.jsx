@@ -32,7 +32,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
+            <a href="stockists" className="text-gray-600 hover:text-gray-900">
               STOKIST
             </a>
           </li>
@@ -47,8 +47,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-600 hover:text-gray-900">
-              TRACK ORDER
+            <a href="visit" className="text-gray-600 hover:text-gray-900">
+              VISIT US
             </a>
           </li>
         </ul>
@@ -98,7 +98,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block text-gray-600 hover:text-gray-900">
+              <a href="stockists" className="block text-gray-600 hover:text-gray-900">
                 STOKIST
               </a>
             </li>
@@ -113,8 +113,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="block text-gray-600 hover:text-gray-900">
-                TRACK ORDER
+              <a href="visit" className="block text-gray-600 hover:text-gray-900">
+                VISIT US
               </a>
             </li>
           </ul>

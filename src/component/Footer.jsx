@@ -7,17 +7,17 @@ const Footer = () => {
           <h2 className="font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="default" className="hover:underline">
                 HOME
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="stockists" className="hover:underline">
                 STOCKIST
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="corporate-gifting" className="hover:underline">
                 CORPORATE GIFTING
               </a>
             </li>

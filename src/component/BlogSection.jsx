@@ -1,17 +1,18 @@
+
 const BlogSection = () => {
   return (
     <div className="flex flex-col items-center justify-center py-9 bg-white">
-      <h2 className="text-2xl font-semibold mb-8">
+      <h2 className="text-2xl font-semibold mb-8 text-center">
         ALL THINGS WARM, CALM & SUSTAINABLE
       </h2>
-      <div className="flex justify-around w-full max-w-5xl mb-15">
+      <div className="flex flex-wrap justify-center gap-8 w-full max-w-5xl mb-15">
         <div className="flex flex-col items-center">
           <img
             src="https://ekatrahandmade.com/cdn/shop/files/icon_1.png?v=1711623894"
             alt="Block Printed"
             className="w-20 h-20 mb-4"
           />
-          <p className="text-2xl">Block Printed</p>
+          <p className="text-2xl text-center">Block Printed</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -19,7 +20,7 @@ const BlogSection = () => {
             alt="Women Tribe"
             className="overflow-clip w-20 h-20 mb-4"
           />
-          <p className="text-2xl">Women Tribe</p>
+          <p className="text-2xl text-center">Women Tribe</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -27,7 +28,7 @@ const BlogSection = () => {
             alt="Pure Cotton"
             className="w-20 h-20 mb-4"
           />
-          <p className="text-2xl">Pure Cotton</p>
+          <p className="text-2xl text-center">Pure Cotton</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -35,10 +36,10 @@ const BlogSection = () => {
             alt="Hand-made"
             className="w-20 h-20 mb-4"
           />
-          <p className="text-2xl">Hand-made</p>
+          <p className="text-2xl text-center">Hand-made</p>
         </div>
       </div>
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 px-4">
         <p className="text-lg mb-3">
           Sign up for Ekātra weekly a boost of inspiration sent to your inbox
           every week.
@@ -49,11 +50,11 @@ const BlogSection = () => {
           relationships, and more.
         </p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex flex-wrap justify-center">
         <input
           type="email"
           placeholder="Email"
-          className="border border-gray-300 p-2 rounded-l-md"
+          className="border border-gray-300 p-2 rounded-l-md mb-4 md:mb-0"
         />
         <button className="bg-slate-500 text-white p-2 rounded-r-md">→</button>
       </div>
