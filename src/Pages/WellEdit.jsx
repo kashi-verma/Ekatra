@@ -11,7 +11,7 @@ const WellEdit = () => {
             <p className="mb-8">Founder & CEO, Humans of Bombay</p>
           </div>
           <div className="flex justify-center mb-8">
-            <img src="https://ekatrahandmade.com/cdn/shop/t/29/assets/EkatraXRealign.png?v=109340959804661799581738351013" alt="Wellness Journal Cover" className="w-full max-w-lg rounded shadow-lg" />
+            <img src="https://ekatrahandmade.com/cdn/shop/t/32/assets/EkatraXRealign.png?v=109340959804661799581740412371" alt="Wellness Journal Cover" className="w-full max-w-lg rounded shadow-lg" />
           </div>
         </main>
       </div>
