@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
             <p>Upload your logo in PNG format for optimal quality:</p>
             <input type="file" className="my-4 p-2 border" />
             <div className="my-4">
-              <img src="https://ekatrahandmade.com/cdn/shop/t/29/assets/mockup.jpeg?v=158828427672349287721738351013" alt="Gift Box" className="mx-auto" />
+              <img src="https://ekatrahandmade.com/cdn/shop/t/32/assets/mockup.png?v=165792861056235658471740412371" alt="Gift Box" className="mx-auto" />
             </div>
           </section>
         </main>

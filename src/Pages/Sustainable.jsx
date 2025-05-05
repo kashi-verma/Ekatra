@@ -4,7 +4,7 @@ const Sustainable = () => {
         
         <main className="container mx-auto py-8">
           <section className="text-center mb-8">
-            <img src="https://ekatrahandmade.com/cdn/shop/t/29/assets/team_banner.png?v=42871539731014561401738351013" alt="Sustainable Team" className="mx-auto" />
+            <img src="https://ekatrahandmade.com/cdn/shop/t/32/assets/team_banner.png?v=39976322234745447061740412371" alt="Sustainable Team" className="mx-auto" />
             
           </section>
           <section className="mb-8">
