@@ -77,11 +77,10 @@ const CorporateGiftings = ()=>(
 const Contact = ()=>(
 <>
   <Navbar />
-<ContactUs/>
-<Collaborate/>
-<BecomeStockist/>
-<Footer/>
-
+  <ContactUs/>
+  <Collaborate/>
+  <BecomeStockist/>
+  <Footer/>
 </>
 )
 const EkatraXBombay = () =>(
