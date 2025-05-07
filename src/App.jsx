@@ -16,7 +16,6 @@ import EkatraPage from './Pages/EkatraPage';
 import TeamPage from './Pages/TeamPage';
 import Empoweiring from './Pages/Empowering';
 import PersonImage from './Pages/PersonImage';
-// import RealWomenStories from './Pages/RealWomenStories';
 import CorporateGifting from './Pages/CorporateGifting';
 import WhyChooseUs from './Pages/WhyChooseUs';
 import Sustainable from './Pages/Sustainable';
